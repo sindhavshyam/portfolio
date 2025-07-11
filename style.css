@@ -176,20 +176,14 @@ a {
   font-family: "chonky bunny";
 }
 
-#red {
-  color: rgb(255, 0, 0);
+.blue{
+  color: #58c2f9;
 }
-
-#blue {
-  color: #33ffec;
+.red{
+  color: #fa5a5a;
 }
-
-#pink {
-  color: #ff00d0;
-}
-
-#zinc {
-  color: #55ff00;
+.color{
+  color: chartreuse;
 }
 
 .buttons {
@@ -313,6 +307,10 @@ a {
   justify-content: center;
   flex-direction: column;
   gap: 2vw;
+  border: 2px solid white;
+  padding: 4vw;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 .name{
   height: 3vw;
@@ -618,6 +616,8 @@ a {
   justify-content: center;
   flex-direction: column;
   gap: 5vw;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .name{
   height: 10vw;
